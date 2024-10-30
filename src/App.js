@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Web3 } from "web3";
 
 //import the contract addess and the ABI
-const ADDRESS = "0x3b53E61F4Fde5B6C3f7D25E27C42a97477C5f016";
+const ADDRESS = "0xC5B3B32CE36eB1735407DF67E7e1eAE1539fb94F";
 const ABI = [{"inputs":[{"internalType":"uint256","name":"startinPoint","type":"uint256"},{"internalType":"string","name":"startingMessage","type":"string"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"decreaseNumber","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getNumber","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"increaseNumber","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"message","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"string","name":"newMessage","type":"string"}],"name":"setMessage","outputs":[],"stateMutability":"nonpayable","type":"function"}]
 
 
